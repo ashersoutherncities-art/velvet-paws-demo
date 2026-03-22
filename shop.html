@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Velvet Paws LLC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Velvet Paws LLC</h1>
+                    <p class="tagline">Premium pet supplies at dropship prices</p>
+                </div>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#" class="cart-icon">🛒 <span class="cart-count">0</span></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shop Header -->
+    <section class="shop-header">
+        <div class="container">
+            <h1>Shop All Products</h1>
+            <p>Premium pet supplies for your beloved companions</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="shop-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All Products</button>
+                <button class="filter-btn" data-category="dogs">Dogs</button>
+                <button class="filter-btn" data-category="cats">Cats</button>
+                <button class="filter-btn" data-category="small-pets">Small Pets</button>
+                <button class="filter-btn" data-category="health">Health & Wellness</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="product-grid" id="productGrid">
+                <!-- Dog Products -->
+                <div class="product-card" data-category="dogs">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&h=400&fit=crop" alt="Velvet Cloud Orthopedic Dog Bed">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Velvet Cloud Orthopedic Dog Bed</h3>
+                        <div class="product-price">
+                            <span class="price-current">$59.99</span>
+                            <span class="price-compare">$89.99</span>
+                        </div>
+                        <a href="products/velvet-cloud-bed.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dogs">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop" alt="Indestructible Rubber Chew Toy Set">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Indestructible Rubber Chew Toy Set (4-Pack)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$24.99</span>
+                            <span class="price-compare">$39.99</span>
+                        </div>
+                        <a href="products/chew-toy-set.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dogs">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&h=400&fit=crop" alt="No-Pull Dog Harness">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Adjustable No-Pull Dog Harness</h3>
+                        <div class="product-price">
+                            <span class="price-current">$34.99</span>
+                            <span class="price-compare">$54.99</span>
+                        </div>
+                        <a href="products/no-pull-harness.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dogs">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=400&h=400&fit=crop" alt="Interactive Puzzle Feeder Bowl">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Interactive Puzzle Feeder Bowl</h3>
+                        <div class="product-price">
+                            <span class="price-current">$22.99</span>
+                            <span class="price-compare">$34.99</span>
+                        </div>
+                        <a href="products/puzzle-feeder.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Cat Products -->
+                <div class="product-card" data-category="cats">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop" alt="Deluxe Cat Scratching Post">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Deluxe Cat Scratching Post with Perch</h3>
+                        <div class="product-price">
+                            <span class="price-current">$54.99</span>
+                            <span class="price-compare">$79.99</span>
+                        </div>
+                        <a href="products/cat-scratching-post.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="cats">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&h=400&fit=crop" alt="Self-Warming Cat Bed">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Self-Warming Cat Bed (Donut Style)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$32.99</span>
+                            <span class="price-compare">$49.99</span>
+                        </div>
+                        <a href="products/self-warming-cat-bed.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="cats">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1516750905822-d080ca718dd2?w=400&h=400&fit=crop" alt="Automatic Cat Feeder">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Automatic Cat Feeder (Programmable, 4L)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$64.99</span>
+                            <span class="price-compare">$89.99</span>
+                        </div>
+                        <a href="products/automatic-feeder.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="cats">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=400&fit=crop" alt="Cat Window Hammock">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Cat Window Hammock (Suction Cup)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$29.99</span>
+                            <span class="price-compare">$44.99</span>
+                        </div>
+                        <a href="products/window-hammock.html" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Small Pets -->
+                <div class="product-card" data-category="small-pets">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=400&h=400&fit=crop" alt="Wooden Hamster Hideout">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Wooden Hamster Hideout & Platform</h3>
+                        <div class="product-price">
+                            <span class="price-current">$22.99</span>
+                            <span class="price-compare">$34.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="small-pets">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=400&h=400&fit=crop" alt="Rabbit Hay Feeder">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Rabbit Hay Feeder Rack (Wall-Mount)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$24.99</span>
+                            <span class="price-compare">$37.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Health & Wellness -->
+                <div class="product-card" data-category="health">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1614963366795-8b6e1ad6286d?w=400&h=400&fit=crop" alt="Pet Multivitamin Chews">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pet Multivitamin Chews (120-Count)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$32.99</span>
+                            <span class="price-compare">$49.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="health">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&h=400&fit=crop" alt="Hip & Joint Supplement">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Hip & Joint Glucosamine Supplement</h3>
+                        <div class="product-price">
+                            <span class="price-current">$39.99</span>
+                            <span class="price-compare">$59.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="health">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=400&h=400&fit=crop" alt="Pet First Aid Kit">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pet First Aid Kit (40-Piece)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$36.99</span>
+                            <span class="price-compare">$54.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=400&h=400&fit=crop" alt="Luxury Velvet Collar">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Luxury Velvet Pet Collar (Adjustable)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$19.99</span>
+                            <span class="price-compare">$32.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=400&fit=crop" alt="Pet Travel Carrier">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pet Travel Carrier Bag (Airline Approved)</h3>
+                        <div class="product-price">
+                            <span class="price-current">$54.99</span>
+                            <span class="price-compare">$79.99</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Velvet Paws LLC</h3>
+                    <p>Premium pet supplies at dropship prices</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="shop.html?category=dogs">Dog Supplies</a></li>
+                        <li><a href="shop.html?category=cats">Cat Supplies</a></li>
+                        <li><a href="shop.html?category=small-pets">Small Pets</a></li>
+                        <li><a href="shop.html?category=health">Health & Wellness</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us for pet tips and exclusive offers</p>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Pinterest</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Velvet Paws LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
